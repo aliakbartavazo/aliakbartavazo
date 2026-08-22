@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پنل مدیریت | تواضع</title><link rel="stylesheet" href="admin-v2.css"></head>
+<body>
+<div class="app">
+<aside><div class="brand"><b>TV</b><span>تواضع<small>پنل مدیریت</small></span></div>
+<nav>
+<a href="#dashboard">⌂ داشبورد</a><a href="#home">◈ صفحه اصلی</a><a href="#resume">▤ رزومه</a><a href="#portfolio">▧ پورتفولیو</a><a href="#playlist">♫ پلی‌لیست</a><a href="#comments">💬 نظرات کاربران</a><a href="#contact">✉ ارتباط با من</a><a href="#settings">⚙ تنظیمات</a>
+</nav><a class="site" href="index.html">↗ مشاهده سایت</a></aside>
+<main><header><span>پنل مدیریت</span><a href="index.html">مشاهده سایت</a></header>
+
+<section id="dashboard" class="page"><span>ADMIN PANEL</span><h1>داشبورد</h1><p>مدیریت کامل محتوای سایت از یکجا.</p>
+<div class="stats"><div>بازدید امروز<strong>—</strong><small>بعداً با آمار واقعی وصل می‌شود</small></div><div>نمونه‌کارها<strong id="pc">۰</strong><small>قابل مدیریت</small></div><div>نظرات<strong id="cc">۰</strong><small>در انتظار بررسی</small></div><div>وضعیت سایت<strong class="green">فعال</strong><small>GitHub Pages</small></div></div></section>
+
+<section id="home" class="page"><span>HOME</span><h1>صفحه اصلی</h1><div class="panel">
+<label>نام<input id="name" value="علی اکبر تواضع"></label><label>زیرعنوان<input id="subtitle" value="طراحی • تدوین • گرافیک"></label><label>آدرس لوگو<input id="logo" value="assets/logo.png"></label><button id="saveHome">ذخیره تغییرات</button><i id="homeMsg"></i></div></section>
+
+<section id="resume" class="page"><span>RESUME</span><h1>رزومه</h1><div class="panel"><label>متن رزومه<textarea id="resumeText" rows="10" placeholder="سوابق، مهارت‌ها و فعالیت‌ها..."></textarea></label><button id="saveResume">ذخیره رزومه</button></div></section>
+
+<section id="portfolio" class="page"><span>PORTFOLIO</span><h1>پورتفولیو</h1><div class="panel"><h3>نمونه‌کارها</h3><p>در نسخه دیتابیس، از اینجا تصویر، عنوان، توضیح و لینک هر نمونه‌کار را اضافه می‌کنی.</p><button id="addPortfolio">+ افزودن نمونه‌کار</button></div></section>
+
+<section id="playlist" class="page"><span>PLAYLIST</span><h1>پلی‌لیست</h1><div class="panel"><h3>فایل‌های صوتی</h3><p>عنوان، فایل صوتی، تصویر و توضیحات هر صوت از این بخش مدیریت می‌شود.</p><button id="addAudio">+ افزودن صوت</button></div></section>
+
+<section id="comments" class="page"><span>COMMENTS</span><h1>نظرات کاربران</h1><div class="comment-filter"><button data-filter="all">همه</button><button data-filter="pending">در انتظار بررسی</button><button data-filter="approved">تأیید شده</button></div><div id="commentsList"></div><div id="noComments" class="empty">هنوز نظری ثبت نشده است.<br><small>بعد از اتصال دیتابیس، نظرات واقعی کاربران اینجا نمایش داده می‌شوند.</small></div></section>
+
+<section id="contact" class="page"><span>CONTACT</span><h1>ارتباط با من</h1><div class="panel"><label>اینستاگرام<input id="ig"></label><label>تلگرام<input id="tg"></label><label>ایمیل<input id="email"></label><button id="saveContact">ذخیره اطلاعات</button></div></section>
+
+<section id="settings" class="page"><span>SETTINGS</span><h1>تنظیمات</h1><div class="panel"><h3>امنیت پنل</h3><p>در مرحله اتصال دیتابیس، ورود مدیر و دسترسی امن را اضافه می‌کنیم.</p><h3>ذخیره‌سازی</h3><p>دیتابیس رایگان برای نظرات، نمونه‌کارها، صوت‌ها و تنظیمات سایت متصل خواهد شد.</p></div></section>
+</main></div><script src="admin-v2.js"></script></body></html>
